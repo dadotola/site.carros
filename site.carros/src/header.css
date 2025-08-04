@@ -1,0 +1,33 @@
+.background-top{
+    background-color: black;
+}
+
+.contact{
+    color: #ff4d00;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.number{  
+    color: #ffff;
+    font-size: 15px;
+}
+
+.comunicacao {
+    color: #ffff;
+    font-size: 15px;
+}
+
+.email {
+    color: #ffff;
+    font-size: 15px;
+}
+
+.flex1 {
+    display: flex;
+    align-items: center;
+}
+.flex2 {
+    display: flex;
+    align-items: center;
+}
