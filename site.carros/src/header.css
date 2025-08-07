@@ -1,11 +1,43 @@
 .background-top{
     background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
+.header-contact{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-mail{
+    display: flex;
+    align-items: center;
+   
+}
+.telefone{
+    width: 19px;
+    height: 19px;
+}
+.logo{
+    width: 37.95px;
+    height: 50px;
+}
+
+.item{
+    width: 28px;
+    height: 24px;
+ 
+}
 .contact{
     color: #ff4d00;
     font-weight: 800;
     font-size: 15px;
+    margin: 0%;
 }
 
 .number{  
@@ -14,8 +46,9 @@
 }
 
 .comunicacao {
-    color: #ffff;
+    color: #ff4d00;
     font-size: 15px;
+    margin: 0%;
 }
 
 .email {
@@ -23,11 +56,3 @@
     font-size: 15px;
 }
 
-.flex1 {
-    display: flex;
-    align-items: center;
-}
-.flex2 {
-    display: flex;
-    align-items: center;
-}
