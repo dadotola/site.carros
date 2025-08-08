@@ -1,58 +1,58 @@
-.background-top{
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 20px;
-    gap: 30px;
-    flex-wrap: wrap;
+.background-top {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px 650px;
 }
 
-.header-contact{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.header-contact {
+  margin-left: -40px;
+  text-align: right;
 }
 
-.header-mail{
-    display: flex;
-    align-items: center;
-   
-}
-.telefone{
-    width: 19px;
-    height: 19px;
-}
-.logo{
-    width: 37.95px;
-    height: 50px;
+.header-mail {
+  margin-right: -40px;
+  text-align: left;
 }
 
-.item{
-    width: 28px;
-    height: 24px;
- 
+.telefone {
+  padding-left: 20px;
+  width: 19px;
+  height: 19px;
 }
-.contact{
-    color: #ff4d00;
-    font-weight: 800;
-    font-size: 15px;
-    margin: 0%;
+.logo {
+  width: 37.95px;
+  height: 50px;
 }
 
-.number{  
-    color: #ffff;
-    font-size: 15px;
+.item {
+  width: 28px;
+  height: 24px;
+}
+
+.contact {
+  color: #ff4d00;
+  font-weight: 800;
+  font-size: 15px;
+  margin: 0%;
+}
+
+.number {
+  color: #ffff;
+  font-size: 15px;
+  margin: 0%;
 }
 
 .comunicacao {
-    color: #ff4d00;
-    font-size: 15px;
-    margin: 0%;
+  color: #ff4d00;
+  font-weight: 800;
+  font-size: 15px;
+  margin: 0%;
 }
 
 .email {
-    color: #ffff;
-    font-size: 15px;
+  color: #ffff;
+  font-size: 15px;
+  margin: 0%;
 }
-
