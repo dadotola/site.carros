@@ -1,11 +1,20 @@
 function Content() {
   return (
     <>
-      <body>
+      <main>
         <div className="background">
-        <img src="./imagens.projetos/image 1.svg" alt="cars"></img>
+          <img src="./imagens.projetos/image 1.svg" alt="cars"></img>
         </div>
-      </body>
+        <div className="overlay">
+          <span>Wypożyczalnia marzeń</span>
+          <br />
+          Spełnimy Twoje!
+        </div>
+        <div className="text">
+          <p>Wypożyczalnia samochodów sportowych</p>
+          <br />Poznaj naszą flotę!
+        </div>
+      </main>
     </>
   );
 }
