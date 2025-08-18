@@ -1,14 +1,13 @@
 function Card({ nome, imagem, tipo, motor, cor, potencia, preco }) {
   return (
     <>
+    
       <card>
         <div className="card">
           <h2>{nome}</h2>
 
-          
-
           <div className="categoria">
-          <img className="car" src={imagem} alt={nome}></img>
+            <img className="car" src={imagem} alt={nome}></img>
             <ul>
               <li>
                 <img src="imagens.projetos/Group 2.svg"></img>

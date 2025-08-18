@@ -1,7 +1,7 @@
 import Footer from "./Footer";
 import Header from "./Header";
-import Content from "./Content";
-import Card from "./Card";
+import Card from "./Card"
+import Home from "./Home";
 import "./header.css";
 import "./content.css";
 import "./card.css";
@@ -15,72 +15,14 @@ function App() {
     <>
       <BrowserRouter>
         <Header />
+      
         <Routes>
-          <Route
-            path="/ComuniqueSeConosco"
-            element={<ComuniqueSeConosco />}
-          ></Route>
+          <Route path="/"element={<Home />}></Route>
+          <Route path="/ComuniqueSeConosco" element={<ComuniqueSeConosco />} ></Route>
           <Route path="/NossoEmail" element={<NossoEmail />}></Route>
         </Routes>
       </BrowserRouter>
-      <Content />
-
-      <section className="section">
-        <Card
-          nome="Ferrari 458 Italia"
-          imagem="/imagens.projetos/image 19.svg"
-          tipo="Coupe"
-          motor="4.5l V8"
-          cor="SCzerwony"
-          potencia="570 koni"
-          preco="1990"
-        />
-        <Card
-          nome="Porsche 718 Cayman"
-          imagem="/imagens.projetos/image 3.svg"
-          tipo="Coupe"
-          motor="2.0l Turbo"
-          cor="Żółty"
-          potencia="300 koni"
-          preco="990"
-        />
-        <Card
-          nome="Mercedes A45 AMG"
-          imagem="/imagens.projetos/image 5.svg"
-          tipo="Hothatch"
-          motor="2.0l Turbo"
-          cor="Żółty"
-          potencia="421 koni"
-          preco="990"
-        />
-        <Card
-          nome="BMW M5 Competition"
-          imagem="/imagens.projetos/image 6.svg"
-          tipo="Coupe"
-          motor="4.4 Twin Turbo"
-          cor="Granatowy"
-          potencia="625 koni"
-          preco="1990"
-        />
-        <Card
-          nome="BMW M4"
-          imagem="/imagens.projetos/image 7.svg"
-          tipo="Coupe"
-          motor="3.0l Twin Turbo"
-          cor="Złoty"
-          potencia="450 koni"
-          preco="990"
-        />
-        <Card
-          nome="Nissan GT-R"
-          imagem="/imagens.projetos/image 8.svg"
-          tipo="Coupe"
-          motor="3.8l Twin Turbo"
-          cor="Pomarańczowy"
-          potencia="570 koni"
-          preco="1890"
-        />
-      </section>
+      
 
       <Footer />
     </>
