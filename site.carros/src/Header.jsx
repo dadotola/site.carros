@@ -18,9 +18,7 @@ function Header() {
               <img src="./imagens.projetos/flame-svg.svg" alt="logo"></img>
             </div>
             <div className="header-mail">
-              <Link className="comunicacao" to="/NossoEmail">
-                nosso e-mail abaixo
-              </Link>
+              <p className="comunicacao">nosso e-mail abaixo</p>
               <p className="email">biuro@sexycars.pl</p>
             </div>
             <div>
@@ -29,19 +27,26 @@ function Header() {
           </div>
           <div>
             <div className="background2">
-                <div className="logo2">
-                SexyCars<img src="./imagens.projetos/flame-svg.svg" alt="flame"></img>
-                </div>
-                <div className="info">
-                  <p>Auta</p>
-                  <p>Informacje</p>
-                  <p>Kontakt</p>
-                </div>
-                <div className="logoscomunic">
-                  <img src="./imagens.projetos/IG.svg" alt="insta"></img>
-                  <img src="./imagens.projetos/FB.svg" alt="face"></img>
-                  <img src="./imagens.projetos/YT.svg" alt="you"></img>
-                </div>
+              <div className="logo2">
+                SexyCars
+                <img src="./imagens.projetos/flame-svg.svg" alt="flame"></img>
+              </div>
+              <div className="info">
+              <Link className="info-auta" to="/">
+                Auta
+              </Link>
+              <Link className="info-info" to="/Info">
+              Informacje
+              </Link>
+              <Link className="info-cont" to="/ComuniqueSeConosco">
+              Kontakt
+              </Link>
+              </div>
+              <div className="logoscomunic">
+                <img src="./imagens.projetos/IG.svg" alt="insta"></img>
+                <img src="./imagens.projetos/FB.svg" alt="face"></img>
+                <img src="./imagens.projetos/YT.svg" alt="you"></img>
+              </div>
             </div>
           </div>
         </nav>

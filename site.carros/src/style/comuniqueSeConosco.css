@@ -1,0 +1,94 @@
+.titulo {
+  max-width: 1200px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 15px;
+  margin: 20px 320px;
+}
+
+.titulo p {
+  color: #ff4d00;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* espaço entre infos e mapa */
+  align-items: flex-start; /* alinha pelo topo */
+  margin-top: 30px;
+}
+.categorias {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* duas colunas iguais */
+  gap: 100px; /* espaço entre colunas */
+  max-width: 700px;
+  margin-left: 340px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.categorias p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.categorias strong {
+  font-size: 25px;
+}
+
+.loca {
+  margin-right: 400px;
+  margin-top: 50px;
+  width: 400px;
+  height: 300px;
+}
+
+.avaliacao {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 1900px;
+  height: 160px;
+}
+
+.bottom {
+  text-align: left;
+  margin: 20px 340px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.perfil {
+  padding-top: -100px;
+}
+
+.perfil p {
+  font-size: 13px;
+  color: #666;
+}
+.perfil strong {
+  color: black;
+  margin: 0;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.avatar {
+  background: green;
+  color: white;
+  border-radius: 20%;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.bottom img {
+  width: 130px;
+  height: 110px;
+  margin-left: 990px;
+  margin-bottom: 100px;
+  margin-top: -120px;
+}

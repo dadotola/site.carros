@@ -28,10 +28,14 @@ function Footer() {
               <p className="mail">Email: biuro@sexycars.pl</p>
             </div>
             <div>
-              <p className="description">Auta sportowe na wynajem: Ferrari, Lamborghini, Bmw, Nissan, Ford, Audi, Porsche | Wypożyczalnia samochodów sportowych Kraków, Katowice, Warszawa, Wrocław, Rzeszów, Kielce, Częstochowa</p>
+              <p className="description">
+                Auta sportowe na wynajem: Ferrari, Lamborghini, Bmw, Nissan,
+                Ford, Audi, Porsche | Wypożyczalnia samochodów sportowych
+                Kraków, Katowice, Warszawa, Wrocław, Rzeszów, Kielce,
+                Częstochowa
+              </p>
             </div>
           </div>
-         
         </div>
       </footer>
     </>

@@ -1,7 +1,6 @@
 function Card({ nome, imagem, tipo, motor, cor, potencia, preco }) {
   return (
     <>
-    
       <card>
         <div className="card">
           <h2>{nome}</h2>

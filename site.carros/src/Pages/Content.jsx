@@ -12,7 +12,8 @@ function Content() {
         </div>
         <div className="text">
           <p>Wypożyczalnia samochodów sportowych</p>
-          <br />Poznaj naszą flotę!
+          <br />
+          Poznaj naszą flotę!
         </div>
       </main>
     </>

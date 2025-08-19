@@ -1,5 +1,5 @@
-import Content from "./Content";
-import Card from "./Card";
+import Content from "./Pages/Content";
+import Card from "./Pages/Card";
 function Home() {
   return (
     <div>
@@ -31,7 +31,6 @@ function Home() {
           cor="Żółty"
           potencia="421 koni"
           preco="990"
-          
         />
         <Card
           nome="BMW M4"
@@ -42,7 +41,7 @@ function Home() {
           potencia="450 koni"
           preco="990"
         />
-         <Card
+        <Card
           nome="Nissan GT-R"
           imagem="/imagens.projetos/image 8.svg"
           tipo="Coupe"
@@ -51,7 +50,7 @@ function Home() {
           potencia="570 koni"
           preco="1890"
         />
-         <Card
+        <Card
           nome="BMW M5 Competition"
           imagem="/imagens.projetos/image 6.svg"
           tipo="Coupe"
@@ -61,7 +60,6 @@ function Home() {
           preco="1990"
         />
       </section>
-
     </div>
   );
 }

@@ -1,0 +1,56 @@
+.card {
+  background: #f7f7f7;
+  width: 465px;
+  height: 272px;
+  border-radius: 8px;
+  box-shadow: 4px 4px #ff4d00;
+  padding: 50px;
+  text-align: center;
+  transition: transform 0.5 ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.car {
+  margin-right: 200px;
+  width: 300px;
+  height: 150px;
+}
+
+.card h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 0%;
+}
+
+.categoria ul {
+  margin-top: -130px;
+  list-style: none;
+  margin-right: 60px;
+}
+
+.categoria li {
+  text-align: left;
+  display: flex;
+  white-space: nowrap;
+  margin-left: 290px;
+  gap: 10px;
+  font-size: 0.95rem;
+  margin-bottom: 5px;
+}
+
+.preco {
+  margin-top: 100px;
+  color: #818181;
+  font-size: 0.9rem;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  margin-top: 20px;
+  margin-left: 220px;
+}
